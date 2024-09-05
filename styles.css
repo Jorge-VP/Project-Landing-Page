@@ -1,0 +1,154 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.partone {
+    padding: 50px 100px;
+    background-color: #1f2937;
+}
+.header,
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.links{
+    gap: 20px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+}
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.article h1,
+.article button {
+    color: white;
+    margin: 0;
+}
+.article .content,
+.article img {
+    flex: 1;
+}
+.article h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.article p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button {
+    background-color: #3882f6;
+    border: 1px  solid #3882f6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.parttwo {
+    padding: 50px 100px;
+}
+.parttwo h2 {
+    margin: 0 0 50px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.card p {
+    text-align: center;
+    color: grey;
+    width: 188px;
+    font-size: 18px;
+}
+
+.card .img {
+    width: 180px;
+    height: 180px;
+    /*border: 4px solid #3882f6;*/
+    border-radius: 20px;  
+}
+.card img {
+    border-radius: 20px;
+    border: 4px solid #3882f6;
+}    
+.partthree {
+    padding: 50px 100px;
+    background-color: #e5e7eb
+}
+.quote-text {
+    margin: 0;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+.quote-author {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
+}
+.partfour {
+    padding: 50px 100px;
+}
+.partfour .container {
+    background-color: #3882f6;
+    border-radius: 10px; 
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+.container .text p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+.container .button {
+    color: white;
+    border: 2px solid white;
+    flex-shrink: 0;    
+}
+.footer {
+    padding: 25px 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    color: white;
+    font-size: 18px;
+}
